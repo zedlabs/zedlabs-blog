@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
 html,
 body {
   padding: 0;
@@ -6,9 +8,46 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.header{
+  padding: 3%;
+}
+
+.titleName{
+  color: #94DCD4;
+}
+
+.subtext{
+  color: #047474;
+}
+
+h1{
+
+}
+
+.itemList{
+  padding-left: 1%;
+  text-decoration: underline;
+  font-size: 200%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.contacts{
+  text-decoration: underline;
+  padding-left: 3%
+}
+
+.space{
+  padding-top: 5%
+}
+
 a {
+
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
