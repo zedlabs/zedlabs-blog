@@ -24,6 +24,7 @@ export async function getStaticProps(){
 export default function Home(posts){
   console.log(posts.posts);
   return (
+    <div>
       <ul>
       {posts.posts.map(article => (
         <li key={article.sys.id}>
@@ -33,5 +34,6 @@ export default function Home(posts){
         </li>
       ))}
       </ul>
+    </div>
         )
 }

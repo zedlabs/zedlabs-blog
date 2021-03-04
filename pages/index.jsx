@@ -1,3 +1,5 @@
+import styles from '../styles/homePage.module.css'
+
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
 import Post from '../components/post'
@@ -6,28 +8,31 @@ import Link from 'next/link'
 export default function Home(posts){
   console.log(posts.posts);
   return (
-    <>
-    <div class="header">
-      <h1 class="titleName">Zohaib Ansari.</h1>
-      <p><h3 class="subtext">Android Developer</h3></p>
-    </div>
-    <p class="itemList">
-      <ul>
+    <div className={styles.parent}>
+    <div className={styles.titleName}>zohaib Ansari</div>
+    <div className={styles.subtext}>Android Developer</div>
+    <div className={styles.space} />
+
+    <div className={styles.body1}>
+    <p className={styles.itemList}>
+      <ul className={styles.list}>
         <li>Portfolio</li>
         <li>
           <Link href={'/posts'}>
-            <a>Blog</a>
+            <a className={styles.anchor}>Blog</a>
           </Link>
         </li>
-        <li>Github</li>
+        <li>
+          <Link href={'https://github.com/zedlabs'}>
+            <a className={styles.anchor}>Github</a>
+          </Link>
+          </li>
         <li>About</li>
       </ul>
     </p>
-    <div class="space" />
-    <div class="contacts">
-      <>Contact</><br />
-        <a href="mailto:zohaibansari100@gmail.com">zohaibansari100@gmail.com</a>
+    <div className={styles.space}/>
     </div>
-    </>
+    </div>
         )
 }
+  // <a className={styles.anchor} href="mailto:zohaibansari100@gmail.com">zohaibansari100@gmail.com</a>
