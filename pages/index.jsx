@@ -8,6 +8,8 @@ import Link from 'next/link'
 export default function Home(posts){
   console.log(posts.posts);
   return (
+    <html className={styles.topLevel}>
+    <body>
     <div className={styles.parent}>
     <div className={styles.titleName}>zohaib Ansari</div>
     <div className={styles.subtext}>Android Developer</div>
@@ -33,6 +35,8 @@ export default function Home(posts){
     <div className={styles.space}/>
     </div>
     </div>
+    </body>
+    </html>
         )
 }
   // <a className={styles.anchor} href="mailto:zohaibansari100@gmail.com">zohaibansari100@gmail.com</a>
