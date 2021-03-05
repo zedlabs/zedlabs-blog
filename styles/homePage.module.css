@@ -5,7 +5,7 @@
 .topLevel{
   margin: 0;
   height: 100%;
-  background-color: #44444C;
+  background-color: #131516;
 }
 
 .parent {
@@ -23,20 +23,20 @@
 
 .body1{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .titleName{
   padding-top: 5%;
   font-family: 'Major Mono Display', monospace;
-  font-size: 200%;
+  font-size: 240%;
   color: #94DCD4;
 }
 
 .subtext{
   font-family: 'Major Mono Display', monospace;
   font-size: 150%;
-  font-weight: bold;
-  color: #047474;
+  color: #04FBFB;
 }
 
 .anchor{

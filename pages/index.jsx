@@ -11,8 +11,8 @@ export default function Home(posts){
     <html className={styles.topLevel}>
     <body>
     <div className={styles.parent}>
-    <div className={styles.titleName}>zohaib Ansari</div>
-    <div className={styles.subtext}>Android Developer</div>
+    <div className={styles.titleName}><b>zohaib Ansari</b></div>
+    <div className={styles.subtext}><b>Android Developer</b></div>
     <div className={styles.space} />
 
     <div className={styles.body1}>
